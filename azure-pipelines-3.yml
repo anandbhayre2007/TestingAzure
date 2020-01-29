@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'anand bhayre'
+  vmImage: 'Temp'
 
 steps:
 - task: Maven@3
