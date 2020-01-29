@@ -16,7 +16,7 @@ public class FirstMavenClass
 	@Test
 	public void test2()
 	{
-		System.setProperty("webdriver.chrome.driver", "D:\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/BrowserDrivers/chromedriver.exe");
 		
 		ChromeDriver dr= new ChromeDriver();
 		
