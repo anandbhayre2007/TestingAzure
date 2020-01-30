@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21204" started-at="2020-01-29T06:32:18Z" finished-at="2020-01-29T06:32:39Z">
+  <suite name="Default suite" duration-ms="21013" started-at="2020-01-30T07:16:04Z" finished-at="2020-01-30T07:16:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21204" started-at="2020-01-29T06:32:18Z" finished-at="2020-01-29T06:32:39Z">
+    <test name="Default test" duration-ms="21013" started-at="2020-01-30T07:16:04Z" finished-at="2020-01-30T07:16:25Z">
       <class name="SamplePackage.FirstMavenClass">
-        <test-method status="PASS" signature="test1()[pri:0, instance:SamplePackage.FirstMavenClass@29ee9faa]" name="test1" duration-ms="29" started-at="2020-01-29T12:02:18Z" finished-at="2020-01-29T12:02:18Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:SamplePackage.FirstMavenClass@29ee9faa]" name="test1" duration-ms="27" started-at="2020-01-30T12:46:04Z" finished-at="2020-01-30T12:46:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:SamplePackage.FirstMavenClass@29ee9faa]" name="test2" duration-ms="21093" started-at="2020-01-29T12:02:18Z" finished-at="2020-01-29T12:02:39Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:SamplePackage.FirstMavenClass@29ee9faa]" name="test2" duration-ms="20910" started-at="2020-01-30T12:46:04Z" finished-at="2020-01-30T12:46:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->

@@ -28,7 +28,7 @@ public class FirstMavenClass
 		
 		dr.manage().window().maximize();
 		
-		dr.get("http://www.newtours.demoaut.com/");
+		dr.get("https://www.google.com/");
 		
 		TakesScreenshot scrShot =((TakesScreenshot)dr);
         //Call getScreenshotAs method to create image file
@@ -37,9 +37,15 @@ public class FirstMavenClass
 		File DestFile=new File(System.getProperty("user.dir")+"/Screenshots/homepage.jpg");
 		//Copy file at destination
 		FileHandler.copy(SrcFile, DestFile);
-		dr.findElement(By.name("userName")).sendKeys("mercury");
-		dr.findElement(By.name("password")).sendKeys("mercury");
-		dr.findElement(By.name("login")).click();
+		dr.findElement(By.name("q")).sendKeys("anand");
+		
+		 scrShot =((TakesScreenshot)dr);
+        //Call getScreenshotAs method to create image file
+		 SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
+		//Move image file to new destination
+		 DestFile=new File(System.getProperty("user.dir")+"/Screenshots/homepage2.jpg");
+		//Copy file at destination
+		FileHandler.copy(SrcFile, DestFile);
 		
 		
 	}
